@@ -1,0 +1,12 @@
+{
+  "name": "finance-screening",
+  "version": "1.0.0",
+  "description": "选股筛选命令集：行业漏斗精选、去劣指标筛选、巴菲特买入前 Checklist、供应链瓶颈套利扫描。",
+  "keywords": [
+    "选股",
+    "筛选",
+    "漏斗",
+    "checklist",
+    "供应链"
+  ]
+}

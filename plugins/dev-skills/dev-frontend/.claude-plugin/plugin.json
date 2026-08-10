@@ -1,0 +1,14 @@
+{
+  "name": "dev-frontend",
+  "version": "1.0.0",
+  "description": "Frontend development skills: Ant Design decision guide (antd 6.x, Pro, Ant Design X), Next.js App Router expertise, artifact theming with 10 pre-set themes, and two-axis code review (Standards + Spec).",
+  "keywords": [
+    "frontend",
+    "ant-design",
+    "nextjs",
+    "react",
+    "typescript",
+    "theme",
+    "code-review"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "dev-backend",
+  "version": "1.0.0",
+  "description": "Backend development skills: production backend engineering (APIs, auth, databases, security, DevOps), idiomatic Go (concurrency, microservices, pprof), MySQL/MariaDB patterns, and two-axis code review (Standards + Spec).",
+  "keywords": [
+    "backend",
+    "api",
+    "golang",
+    "mysql",
+    "databases",
+    "devops",
+    "code-review"
+  ],
+  "license": "MIT"
+}

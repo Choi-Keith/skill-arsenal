@@ -1,0 +1,34 @@
+{
+  "name": "finance-skills",
+  "owner": {
+    "name": "Choi-Keith",
+    "url": "https://github.com/Choi-Keith"
+  },
+  "plugins": [
+    {
+      "name": "finance-earnings",
+      "source": "./finance-earnings",
+      "description": "财报精读命令集：单一视角的一手资料深度解读，或四大师并行解读 + 编辑润色产出可发布的公众号文章。"
+    },
+    {
+      "name": "finance-portfolio",
+      "source": "./finance-portfolio",
+      "description": "投后与组合管理命令集：投资组合审视、投资论文追踪与漂移检测、股价异动新闻归因。"
+    },
+    {
+      "name": "finance-research",
+      "source": "./finance-research",
+      "description": "公司投资研究命令集：四大师综合分析、投研团队并行研究、行业产业链研究、管理层纵深、未上市公司研究、分红收入分析、段永平问答、财务数据交叉验证规范。"
+    },
+    {
+      "name": "finance-screening",
+      "source": "./finance-screening",
+      "description": "选股筛选命令集：行业漏斗精选、去劣指标筛选、巴菲特买入前 Checklist、供应链瓶颈套利扫描。"
+    },
+    {
+      "name": "finance-writing",
+      "source": "./finance-writing",
+      "description": "财经写作命令集：作者-编辑-读者三Agent协作的公众号文章，以及 3-8 篇长文拆一家公司的深度公司系列。"
+    }
+  ]
+}

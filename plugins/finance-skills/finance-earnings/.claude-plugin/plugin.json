@@ -1,0 +1,11 @@
+{
+  "name": "finance-earnings",
+  "version": "1.0.0",
+  "description": "财报精读命令集：单一视角的一手资料深度解读，或四大师并行解读 + 编辑润色产出可发布的公众号文章。",
+  "keywords": [
+    "财报",
+    "earnings",
+    "精读",
+    "多Agent"
+  ]
+}

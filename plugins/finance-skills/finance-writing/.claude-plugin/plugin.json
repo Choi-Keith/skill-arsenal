@@ -1,0 +1,11 @@
+{
+  "name": "finance-writing",
+  "version": "1.0.0",
+  "description": "财经写作命令集：作者-编辑-读者三Agent协作的公众号文章，以及 3-8 篇长文拆一家公司的深度公司系列。",
+  "keywords": [
+    "公众号",
+    "写作",
+    "深度长文",
+    "多Agent"
+  ]
+}

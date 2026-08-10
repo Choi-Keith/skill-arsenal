@@ -1,0 +1,89 @@
+{
+  "name": "skill-arsenal",
+  "owner": {
+    "name": "Choi-Keith",
+    "url": "https://github.com/Choi-Keith"
+  },
+  "plugins": [
+    {
+      "name": "dev-backend",
+      "source": "./plugins/dev-skills/dev-backend",
+      "description": "Backend development skills: production backend engineering (APIs, auth, databases, security, DevOps), idiomatic Go (concurrency, microservices, pprof), MySQL/MariaDB patterns, and two-axis code review (Standards + Spec)."
+    },
+    {
+      "name": "dev-frontend",
+      "source": "./plugins/dev-skills/dev-frontend",
+      "description": "Frontend development skills: Ant Design decision guide (antd 6.x, Pro, Ant Design X), Next.js App Router expertise, artifact theming with 10 pre-set themes, and two-axis code review (Standards + Spec)."
+    },
+    {
+      "name": "finance-earnings",
+      "source": "./plugins/finance-skills/finance-earnings",
+      "description": "财报精读命令集：单一视角的一手资料深度解读，或四大师并行解读 + 编辑润色产出可发布的公众号文章。"
+    },
+    {
+      "name": "finance-portfolio",
+      "source": "./plugins/finance-skills/finance-portfolio",
+      "description": "投后与组合管理命令集：投资组合审视、投资论文追踪与漂移检测、股价异动新闻归因。"
+    },
+    {
+      "name": "finance-research",
+      "source": "./plugins/finance-skills/finance-research",
+      "description": "公司投资研究命令集：四大师综合分析、投研团队并行研究、行业产业链研究、管理层纵深、未上市公司研究、分红收入分析、段永平问答、财务数据交叉验证规范。"
+    },
+    {
+      "name": "finance-screening",
+      "source": "./plugins/finance-skills/finance-screening",
+      "description": "选股筛选命令集：行业漏斗精选、去劣指标筛选、巴菲特买入前 Checklist、供应链瓶颈套利扫描。"
+    },
+    {
+      "name": "finance-writing",
+      "source": "./plugins/finance-skills/finance-writing",
+      "description": "财经写作命令集：作者-编辑-读者三Agent协作的公众号文章，以及 3-8 篇长文拆一家公司的深度公司系列。"
+    },
+    {
+      "name": "pm-ai-shipping",
+      "source": "./plugins/pm-skills/pm-ai-shipping",
+      "description": "AI Shipping Kit — for PMs and founders accountable for AI-built code. Document a vibe-coded app, audit it for intended-vs-implemented security gaps and performance issues, and produce a reviewer-ready shipping packet."
+    },
+    {
+      "name": "pm-data-analytics",
+      "source": "./plugins/pm-skills/pm-data-analytics",
+      "description": "Data analytics skills for PMs: SQL query generation and cohort analysis. Analyze user data, generate queries, and identify retention patterns."
+    },
+    {
+      "name": "pm-execution",
+      "source": "./plugins/pm-skills/pm-execution",
+      "description": "Execution and product management skills: PRDs, OKRs, roadmaps, sprints, pre-mortems, stakeholder maps, user stories, prioritization frameworks, and more."
+    },
+    {
+      "name": "pm-go-to-market",
+      "source": "./plugins/pm-skills/pm-go-to-market",
+      "description": "Go-to-market skills for PMs: GTM strategy, growth loops, GTM motions, beachhead segments, and ideal customer profiles."
+    },
+    {
+      "name": "pm-market-research",
+      "source": "./plugins/pm-skills/pm-market-research",
+      "description": "Market research skills for PMs: user personas, market segmentation, sentiment analysis, and competitive analysis."
+    },
+    {
+      "name": "pm-marketing-growth",
+      "source": "./plugins/pm-skills/pm-marketing-growth",
+      "description": "Product marketing and growth skills: marketing ideas, value proposition statements, North Star metrics, product naming, and positioning."
+    },
+    {
+      "name": "pm-product-discovery",
+      "source": "./plugins/pm-skills/pm-product-discovery",
+      "description": "Product discovery skills for PMs: ideation, experiments, assumption testing, feature prioritization, and customer interview synthesis."
+    },
+    {
+      "name": "pm-product-strategy",
+      "source": "./plugins/pm-skills/pm-product-strategy",
+      "description": "Product strategy skills for PMs: vision, strategy canvas, value propositions, lean canvas, business model canvas, SWOT, PESTLE, Ansoff Matrix, Porter's Five Forces, and monetization."
+    },
+    {
+      "name": "pm-toolkit",
+      "source": "./plugins/pm-skills/pm-toolkit",
+      "description": "PM utility skills: resume review, NDA drafting, privacy policy generation, and grammar/flow checking. Essential tools for product managers beyond core product work."
+    }
+  ]
+}

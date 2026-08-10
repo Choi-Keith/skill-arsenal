@@ -1,0 +1,19 @@
+{
+  "name": "dev-skills",
+  "owner": {
+    "name": "Choi-Keith",
+    "url": "https://github.com/Choi-Keith"
+  },
+  "plugins": [
+    {
+      "name": "dev-backend",
+      "source": "./dev-backend",
+      "description": "Backend development skills: production backend engineering (APIs, auth, databases, security, DevOps), idiomatic Go (concurrency, microservices, pprof), MySQL/MariaDB patterns, and two-axis code review (Standards + Spec)."
+    },
+    {
+      "name": "dev-frontend",
+      "source": "./dev-frontend",
+      "description": "Frontend development skills: Ant Design decision guide (antd 6.x, Pro, Ant Design X), Next.js App Router expertise, artifact theming with 10 pre-set themes, and two-axis code review (Standards + Spec)."
+    }
+  ]
+}
