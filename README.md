@@ -38,7 +38,7 @@ Skill Arsenal 的所有配置都在**项目目录**中（`.claude/settings.json`
 
 ---
 
-### 方式 A：安装整套插件（推荐团队使用）
+### 安装整套插件（推荐团队使用）
 
 克隆后，需要先**注册市场**，然后按需安装插件。你可以按单个插件安装，也可以按领域（如 `pm-skills`）批量安装。
 
@@ -90,57 +90,7 @@ Skill Arsenal 的所有配置都在**项目目录**中（`.claude/settings.json`
 /pm-master:master               # 应能正常执行
 ```
 
----
 
-### 方式 B：安装单个 Skill / Command（推荐个人使用）
-
-使用 `scripts/install.sh` 脚本，**交互式浏览** 97 个 skills 和 68 个 commands，一键安装。
-
-```bash
-# 克隆仓库
-git clone https://github.com/Choi-Keith/skill-arsenal.git
-cd skill-arsenal
-
-# 交互式菜单（浏览所有 skill/command，按名称安装）
-./scripts/install.sh
-
-# 直接安装指定 skill
-./scripts/install.sh --skill create-prd
-./scripts/install.sh --skill finance-investment-research
-
-# 直接安装指定 command
-./scripts/install.sh --command company
-
-# 安装整个插件的全部 skill
-./scripts/install.sh --category dev-backend
-
-# 安装整个领域的全部 skill + command（一键装完 pm-skills）
-./scripts/install.sh --domain pm-skills
-./scripts/install.sh --domain finance-skills
-
-# 列出所有可安装项
-./scripts/install.sh --list
-
-# 安装全部
-./scripts/install.sh --all
-```
-
-**Windows 用户**：
-```cmd
-scripts\install.bat --skill create-prd
-scripts\install.bat --list
-scripts\install.bat
-```
-
-**为什么用脚本安装**：
-- ✅ 无需记路径——脚本自动扫描全部 skill/command，交互式选择
-- ✅ 自动复制 `references/` 目录——skill 的参考文件一并安装
-- ✅ 安装后提示相关 command——装 skill 时提醒你可以搭配哪些 slash 命令
-- ✅ 跨平台——macOS/Linux 用 `install.sh`，Windows 用 `install.bat`
-- ✅ 零依赖——只需 Python 3（macOS/Linux 自带，Windows 需安装）
-- ✅ `--domain` 一键装完整个领域（如 `./scripts/install.sh --domain pm-skills`）
-
----
 
 ### 安装方式对比
 
